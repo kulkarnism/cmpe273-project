@@ -10,7 +10,7 @@
 <h1><div align="center">Details of University</div></h1>
 <div ="input page">
 <div align="center">
- <table class="datatable" border="1" cellpadding="5">
+ <table class="datatable" border="2" cellpadding="5">
  <#list universityObject as universityObject>
     <tr>
         <th rowspan ="2" bgcolor="yellow">School Name</th>  
@@ -36,7 +36,7 @@
 </br>
 </br>
 <div align="center">
-<table class="datatable" border="1" cellpadding="5">
+<table class="datatable" border="2" cellpadding="5">
   <tr>
   		<th bgcolor="yellow">Department</th>  
         <th bgcolor="yellow">GRE Score</th>
@@ -54,7 +54,7 @@
 </table>
 </div>
 <#else>
-<h1><div align ="center"><font size=14>
+<h1><div align ="center"><font size=15>
 <img src="http://i41.tinypic.com/v5dao7.png"/></div></h1></font>
 <h3><div align ="center">Your one stop destination for university search</div></h3>
 <h3><div align ="center">Enter the name or part of the name of the university you are looking for</div></h3>
