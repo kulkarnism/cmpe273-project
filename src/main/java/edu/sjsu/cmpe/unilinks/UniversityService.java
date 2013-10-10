@@ -136,6 +136,23 @@ public class UniversityService
 		            				 universityObject.add(uoone);
 		            				 
 		            			 }
+						 if(name.toUpperCase().equals("UCBerkeley"))
+						     {
+                                                         UniversityObject uoone = new UniversityObject();
+                                                         uoone.setSchoolName("University of California at Berkeley");
+                                                         uoone.setDepartment("Computer Science");
+                                                         uoone.setLocation("Berkeley, CA");
+                                                         uoone.setContact("101 Sproul Hall, Berkeley, CA 94704 ");
+                                                         uoone.setGreScore(320);
+                                                         uoone.setIeltsScore(8.5);
+                                                         uoone.setToeflScore(100);
+                                                         uoone.setTuitionFees("$39845");
+                                                         uoone.setFallApplnDate("15December2013");
+                                                         uoone.setSpringApplnDate("NA");
+
+                                                         universityObject.add(uoone);
+
+						     }
 		            			 if(name.toUpperCase().equals("STANFORD"))
 		            			 {
 		            				 UniversityObject uoone = new UniversityObject();
