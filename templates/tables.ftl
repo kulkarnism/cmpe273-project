@@ -13,9 +13,9 @@
  <table class="datatable" border="2" cellpadding="5">
  <#list universityObject as universityObject>
     <tr>
-        <th rowspan ="2" bgcolor="yellow">School Name</th>  
+        <th rowspan ="2" bgcolor="cyan">School Name</th>  
         <th rowspan ="2" bgcolor="yellow">Tution Fees</th>
-        <th rowspan="2" bgcolor="yellow">Location</th>
+        <th rowspan="2" bgcolor="cyan">Location</th>
         <th rowspan = "2" bgcolor="yellow">Contact</th>
 <th colspan="2" bgcolor="yellow">Application Date</th>
     </tr>
@@ -38,9 +38,9 @@
 <div align="center">
 <table class="datatable" border="2" cellpadding="5">
   <tr>
-  		<th bgcolor="yellow">Department</th>  
+  		<th bgcolor="cyan">Department</th>  
         <th bgcolor="yellow">GRE Score</th>
-        <th bgcolor="yellow">TOEFL Score</th>
+        <th bgcolor="cyan">TOEFL Score</th>
         <th bgcolor="yellow">IELTS Score</th>
    </tr>
    
