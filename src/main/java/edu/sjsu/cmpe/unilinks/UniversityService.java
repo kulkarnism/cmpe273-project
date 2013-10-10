@@ -1,26 +1,17 @@
 package edu.sjsu.cmpe.unilinks;
 
-//import edu.sjsu.cmpe.unilinks.resources.*;
+import static spark.Spark.get;
 
 import java.io.File;
-//import java.io.FileWriter;
-//import java.io.FileWriter;
-//import java.io.OutputStreamWriter;
 import java.io.StringWriter;
-//import java.io.Writer;
 import java.util.ArrayList;
-
-import static spark.Spark.*;
-import spark.*;
-
-//import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-//import java.util.List;
 import java.util.Map;
 
-
-
+import spark.Request;
+import spark.Response;
+import spark.Route;
 import edu.sjsu.cmpe.unilinks.resources.UniversityObject;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
@@ -54,11 +45,9 @@ public class UniversityService
 		                  template.process(input,file);
 		                  if(queryParam == null)
 		            	  {        	  
-		            	  System.out.println("null");
-		            	  }
+		            	 }
 		            	 else
 		            	 {
-		            		 System.out.println(queryParam.substring((queryParam.indexOf("=")+1),queryParam.indexOf("&")));
 		            		 uname = queryParam.substring((queryParam.indexOf("=")+1),queryParam.indexOf("&"));
 		            		 String name = uname;
 		            		 if(queryParam.contains("submit"))
