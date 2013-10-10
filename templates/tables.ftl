@@ -13,15 +13,15 @@
  <table class="datatable" border="1" cellpadding="5">
  <#list universityObject as universityObject>
     <tr>
-        <th rowspan ="2" >School Name</th>  
-        <th rowspan ="2">Tution Fees</th>
-        <th rowspan="2">Location</th>
-        <th rowspan = "2">Contact</th>
-<th colspan="2">Application Date</th>
+        <th rowspan ="2" bgcolor="yellow">School Name</th>  
+        <th rowspan ="2" bgcolor="yellow">Tution Fees</th>
+        <th rowspan="2" bgcolor="yellow">Location</th>
+        <th rowspan = "2" bgcolor="yellow">Contact</th>
+<th colspan="2" bgcolor="yellow">Application Date</th>
     </tr>
     <tr>
-     <td><b>Spring Term</td>
-     <td><b>Fall Term</td>     
+     <td bgcolor="yellow"><b>Spring Term</td>
+     <td bgcolor="yellow"><b>Fall Term</td>     
     </tr> 
     <tr>
      <td>${universityObject.getSchoolName()}</td>
@@ -38,10 +38,10 @@
 <div align="center">
 <table class="datatable" border="1" cellpadding="5">
   <tr>
-  		<th>Department</th>  
-        <th>GRE Score</th>
-        <th>TOEFL Score</th>
-        <th>IELTS Score</th>
+  		<th bgcolor="yellow">Department</th>  
+        <th bgcolor="yellow">GRE Score</th>
+        <th bgcolor="yellow">TOEFL Score</th>
+        <th bgcolor="yellow">IELTS Score</th>
    </tr>
    
    <tr>
